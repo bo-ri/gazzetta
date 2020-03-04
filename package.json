@@ -1,0 +1,23 @@
+{
+  "name": "gazzetta",
+  "version": "1.0.0",
+  "description": "## how to get tokens `https://feedly.com/v3/auth/dev`ここにアクセスしてログインすると，登録されてるアドレスに対してuser id と access tokenが取得できるリンクが送られてくる． access tokenの有効期限は一ヶ月だから様子見てみて良ければproを契約する．",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bo-ri/gazzetta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bo-ri/gazzetta/issues"
+  },
+  "homepage": "https://github.com/bo-ri/gazzetta#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
