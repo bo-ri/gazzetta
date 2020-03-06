@@ -38,9 +38,18 @@ exports.getFeeds = async function (feedId) {
     });
 }
 
-// 記事のsummaryを取ってくる
+// 記事のfeedIdを取ってくる
 exports.getFeedStream = async function (feedId) {
   const endpoint = '/v3/streams/' + encodeURIComponent(feedId) + '/ids';
+  return await requestBase(endpoint)
+    .catch((err) => {
+      return err;
+    });
+}
+
+// summaryを取ってくる
+exports.getEntry = async function (entryId) {
+  const endpoint = '/v3/entries/' + encodeURIComponent(entryId);
   return await requestBase(endpoint)
     .catch((err) => {
       return err;
