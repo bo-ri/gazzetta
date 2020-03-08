@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/bo-ri/gazzetta#readme",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "html-to-mrkdwn": "^3.0.0",
+    "slackify-markdown": "^2.1.0"
   }
 }
