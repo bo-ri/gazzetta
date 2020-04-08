@@ -1,4 +1,5 @@
 # feedly server
+![sample](https://user-images.githubusercontent.com/40175430/78813345-d7acb080-7a07-11ea-80bc-658298d23eb8.jpg)
 
 ## how to get tokens
 `https://feedly.com/v3/auth/dev`ここにアクセスしてログインすると，登録されてるアドレスに対してuser id と access tokenが取得できるリンクが送られてくる．
